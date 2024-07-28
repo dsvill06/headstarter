@@ -2,6 +2,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { File, PlusCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Hero from '@/components/landing/Hero/hero';
+import Navbar from '@/components/landing/Navbar/navbar';
+import Features from '@/components/landing/Features/Features';
+import Footer from '@/components/landing/Footer/Footer';
 
 
 export default async function FrontPage({
@@ -15,7 +18,10 @@ export default async function FrontPage({
 
   return (
    <div>
+      <Navbar/>
       <Hero/>
+      <Features/>
+      <Footer/>
    </div>
   );
 }

@@ -13,7 +13,7 @@ export default function HeroPill() {
         <div className="bg-[#2c344a] text-white p-1 rounded-full">
         </div>
         <div className="flex flex-row justify-start items-center gap-1 mr-2 text-[#2c344a]">
-          <p className="text-sm font-medium">@senalx</p>
+          <p className="text-sm font-medium">@codedoc</p>
           <ArrowRight className="h-4 w-4" />
         </div>
       </Link>

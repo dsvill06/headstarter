@@ -7,7 +7,9 @@ import {
   PanelLeft,
   Settings,
   ShoppingCart,
-  Users2
+  Users2,
+  MessageCircle,
+  FormInput
 } from 'lucide-react';
 
 import {
@@ -74,16 +76,16 @@ function DesktopNav() {
           <Home className="h-5 w-5" />
         </NavItem>
 
-        <NavItem href="#" label="Orders">
-          <ShoppingCart className="h-5 w-5" />
+        <NavItem href="/dashboard/chats" label="Chats">
+          <MessageCircle className="h-5 w-5" />
         </NavItem>
 
-        <NavItem href="/" label="Products">
+        <NavItem href="/dashboard/files" label="Files">
           <Package className="h-5 w-5" />
         </NavItem>
 
-        <NavItem href="/customers" label="Customers">
-          <Users2 className="h-5 w-5" />
+        <NavItem href="/dashboard/docs" label="Docs">
+          <FormInput className="h-5 w-5" />
         </NavItem>
 
         <NavItem href="#" label="Analytics">

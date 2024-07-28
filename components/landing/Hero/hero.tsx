@@ -19,7 +19,7 @@ export default function Hero() {
           Your new way to create easy-to-read documentation
           </h2>
         </div>
-        <Link href={config.links.repo}>
+        <Link href="/dashboard">
           <Button size="lg" className="mt-6 text-md">
             Check it out
             <ArrowRight className="ml-2 h-5 w-5" />

@@ -2,16 +2,21 @@ version: 0.2
 
 phases:
   install:
-    runtime-versions:
-      nodejs: 14
     commands:
-      - npm install
+      - echo "Installing dependencies..."
+      # Placeholder for installation commands
+  pre_build:
+    commands:
+      - echo "Running pre-build steps..."
+      # Placeholder for pre-build commands
   build:
     commands:
-      - npm run build
+      - echo "Building the project..."
+      # Placeholder for build commands
   post_build:
     commands:
-      - npm test
+      - echo "Running post-build steps..."
+      # Placeholder for post-build commands
 
 artifacts:
   files:

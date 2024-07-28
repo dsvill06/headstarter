@@ -23,4 +23,4 @@ An AI-based chatbot for answering internal documentation questions. Built with N
 ## Installation
 - Clone the repository
 - Install dependencies
-- Configure environment variables
+
